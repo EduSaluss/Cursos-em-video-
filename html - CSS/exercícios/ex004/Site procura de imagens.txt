@@ -1,0 +1,6 @@
+IconArchive
+Para procura de imagens
+
+Para criar
+favicon.cc
+favicon.io
