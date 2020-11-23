@@ -6,15 +6,39 @@
     <title>Formatação de textos</title>
     <style>
         body {
-            background-color: rgb(255, 211, 146);
-            font: normal 18pt Bar;
+            background-color: rgb(220, 229, 231);
+            font: normal 18pt Barkerville;
         }
-    </style>
+    </style> <!--Posso usar um style 
+                    mark {
+                        backgroud-color:linegreen;
+                    } para marcado todos os textos que estiverem com a tag mark.-->
 </head>
 <body>
     <h1>Principais formatações</h1>
     <h2>Negrito / Destaque</h2>
     <p>Nesta frase há um  <b>termo em Negrito</b> usando a tag B (não semântica).</p>
     <p>Nesta frase, tenho um <strong>termo em destaque</strong> usando a tag STRONG (semântica).</p> 
+    <h2>Itálico / Ênfase</h2>
+    <p>Nesta frase, há um <i>termo em itálico</i> usando a tag I não semântico)</p>
+    <p>
+        Nesta frase, temos um <em>termo em ênfase</em> usanso a tag EM (semântica). <!-- Ctrl + Shift + P para atalhos rápidos -->
+        <h2>Teste marcado</h2>
+        <p>Podemos criar um <mark style="background-color:rgb(162, 255, 70);">texto marcado</mark> usando a tag MARK. </p> <!--Tag mark com CSS - style -->
+        <p>E no outro parágrafo, há outro <mark>
+            texto marcado
+        </mark>.</p>
+        <h2>Texto grande e pequeno</h2>
+        <p>Criando um <big>texto grande</big><!--Obsolete tag red --> e um <small>texto pequeno</small> nesse parágrafo</p>
+        <h2>Texto deletado</h2><!--riscado-->
+        <p>Podemos marcar um <del style="text-decoration-color:rgb(255, 4, 4) ;">texto como excluído</del> para indicar que ele deve ser lido, no entanto não considerado.</p>
+        <h2>Texto inserido</h2>
+        <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+        <p>Há também o <u>sublinhado</u> com a tag U (não semântica)</p>
+        <h2>Texto sobreescrito</h2>
+        <p>Para inserir coisas do tipo X<sup>20</sup>+2b-1c</p>
+        <h2>Texto subscrito</h2>
+        <p>Para inserir coisas do tipo H<sub>2</sub>O</p>
+    </p>
 </body>
 </html>
