@@ -16,11 +16,14 @@
     </style>
 </head>
 <body>
-  <h1>Olá, Mundo!!!</h1> <!--comentário em HTML-->
+    <h1>Interagindo com um botão</h1> <!--comentário em HTML-->
+  <button onclick="clicou()">Clik AKI!</button> 
   <p>Deus seja louvado!!!</p>
-  <script>      
-      var nome = window.prompt('Qual é seu nome?') //comentário em JC
-      alert('É um grande prazer em te conhecer, ' + nome + '!') //Concatenação o (+ nome).
+  <script>
+        function clicou() {      
+            var nome = window.prompt('Qual é seu nome?') //comentário em JC
+            alert('É um grande prazer em te conhecer, ' + nome + '!') //Concatenação o (+ nome).
+        }
   </script>
   
 </html>
